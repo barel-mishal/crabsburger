@@ -7,7 +7,6 @@ mod route;
 use dioxus::prelude::*;
 mod utils;
 
-const _STYLE: &str = manganis::mg!(file("public/tailwind.css"));
 fn main() {
     launch(app::App);
 }

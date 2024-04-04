@@ -4,7 +4,7 @@ use crate::model::svg::{Svg, SvgPath};
 const URL: &'static str = "http://www.w3.org/2000/svg";
 
 pub static HOME_CARD_ICONS: &[HomeCardIcon] = &[
-    HomeCardIcon {
+HomeCardIcon {
     svg: Svg {
         class: "",
         xmlns: URL,

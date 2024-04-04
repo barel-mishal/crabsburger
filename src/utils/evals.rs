@@ -25,7 +25,6 @@ pub fn InitThemeColorState() {
                 html.classList.remove("dark");  
                 localStorage.setItem("mode", "light");
             }
-            
             "#,
         );
         if theme_state.recv().await.unwrap() == "dark" {
